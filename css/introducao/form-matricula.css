@@ -1,0 +1,129 @@
+.form-matricula{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  top: -120px;
+}
+
+.form-matricula h1{
+  color: #fff;
+  font-size: 4rem;
+  font-family: "Alice", sans-serif;
+  font-weight: 100;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: right;
+}
+
+.form button{
+  background: #e21;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  padding: 16px 13px;
+}
+
+.form button:hover{
+  background: #346;
+}
+
+.form button a{
+  color: #fff;
+  font-size: 1.125rem;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+}
+
+.form button a::after{
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: url('../../surfbot-img/seta2.svg') no-repeat 0 3px;
+  margin-left: 10px;
+}
+
+.form input{
+  border-radius: 4px 0 0 4px;
+  border: none;
+  padding:  13px;
+  width: 290px; 
+  font-size: 1.125rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1040px){
+  .form-matricula{
+    display: grid;
+    align-items: center;
+    top: -200px;
+  }
+  .form-matricula h1{
+    word-break: break-all;
+    max-width: 8ch;
+    margin-left: 50px;
+  }
+  .form{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-right: 50px;
+  }
+  .form input{
+    width: 200px;
+  }
+}
+ 
+@media (max-width: 1000px){
+  .form-matricula{
+    grid-template-columns: 1fr  500px;
+  }
+}
+
+@media (max-width: 860px){
+  .form-matricula{
+    grid-template-columns: 1fr 1fr;
+  }
+  .form button a{
+    font-size: .857rem;
+  }
+  .form input {
+    font-size: .857rem;
+  }
+
+  .form button a::after{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+  }
+  .form input{
+    width: 150px;
+  }
+}
+
+@media (max-width: 780px){
+  .form-matricula{
+    grid-template-columns: 1fr;
+    top: -150px;
+  }
+  .form-matricula h1{
+    word-break: none;
+    max-width: none;
+    text-align: center;
+    margin-left: 0;
+  }
+  .form {
+    display: none;
+  }
+}
+
+@media (max-width: 600px){
+  .form-matricula{
+    grid-template-columns: 1fr;
+    top: -125px;
+  }
+}
+

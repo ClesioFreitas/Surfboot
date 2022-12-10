@@ -1,0 +1,18 @@
+/* Reset */
+@import '../css/reset/reset.css';
+
+/* Global  */
+@import './global/global.css';
+@import './global/header.css';
+@import './global/footer.css'; 
+
+/* introducao */
+@import './introducao/form-matricula.css';
+@import './introducao/main-praia.css';
+@import './introducao/plano-matricula.css';
+@import './introducao/contato.css';
+
+/* formulario */
+
+@import './formulario.css/formulario.css';
+

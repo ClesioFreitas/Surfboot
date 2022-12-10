@@ -1,0 +1,40 @@
+body, nav, ul, li, img, p, h1, h2, h3, h4, h5, h6, blockquote, cite{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*  CONTAINER */
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.horario-aula{
+  color: #fff;
+  background: #18e;
+}
+
+.horario-aula p{
+  padding: 10px 10px;
+  font-size: 0.875rem;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+

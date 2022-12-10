@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Surfboot</title>
+</head>
+
+<body>
+  <div class="horario-aula ">
+    <p class="container">Aulas na Praia Mansa de Sexta à Domingo das 06:00 à 14:00</p>
+  </div>
+
+  <header class="header-bg">
+    <div class="container header-menu">
+      <a href="./index.html"><img src="./surfbot-img/surfbot-logo.svg" alt="Surfbot Logo"></a>
+      <nav class="nav-menu">
+        <ul class="menu">
+          <li><a href="">Praia</a></li>
+          <li><a href="">Aulas</a></li>
+          <li><a href="">Contato</a></li>
+          <li><a href="./formulario.html">Matricule-se</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <section aria-label="Matricula-se" class="inscricao">
+    <h1>Aulas</h1>
+    <div class="container formulario-grid">
+      <div class="matricula-aula">
+        <form action="">
+          <div class="form-grid-col">
+            <div class="col2">
+              <label for="nome">Nome</label>
+              <input type="text" name="nome" id="nome" placeholder="Nome Completo">
+            </div>
+            <div class="col2">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder='nome@email.com ("gmail, hotmail, ...etc")'>
+            </div>
+            <div class="col2">
+              <label for="cpf">CPF</label>
+              <input type="text" name="cpf" id="cpf" placeholder="000.000.000.00">
+            </div>
+            <div>
+              <label for="endereco">Endereço</label>
+              <input type="text" name="endereco" id="endereco" placeholder="Rua Nome, Número, Bairro">
+            </div>
+            <div>
+              <label for="estado">Estado</label>
+              <input type="text" name="estado" id="estado" placeholder="Seleciona o Estado">
+            </div>
+            <div>
+              <label for="cep">CEP</label>
+              <input type="text" name="cep" id="cep" placeholder="00000-000">
+            </div>
+            <div>
+              <label for="cidade">Cidade</label>
+              <input type="text" name="cidade" id="cidade" placeholder="Seleciona o Cidade">
+            </div>
+            <a href="">Forma de pagamento</a>
+          </div>
+
+          <div class="form-grid-col3">
+            <div>
+              <label for="nomeCartao">Nome do Cartão</label>
+              <input type="text" name="nomeCartao" id="nomeCartao" placeholder="Nome impresso no cartão">
+            </div>
+            <div>
+              <label for="mes-ano">Data da Expiração</label>
+              <div class="input-flex">
+                <input type="text" name="mes-ano" id="mes-ano" placeholder="Mês">
+                <input type="text" name="mes-ano" id="mes-ano" placeholder="Ano">
+              </div>
+            </div>
+            <div>
+              <label for="numeroCartao">Número do Cartão</label>
+              <input type="text" name="numeroCartao" id="numeroCartao" placeholder="555.555.555.55">
+            </div>
+            <div>
+              <label for="codigo">Código de Segurança</label>
+              <input type="text" name="codigo" id="codigo" placeholder="XXX">
+            </div>
+          </div>
+
+          <p>Seu cartão será debitado em R$ 49,00</p>
+
+          <button class="relizar-matricula" type="submit">realizar matrícula</button>
+
+          <span>Informações Seguras e Criptografadas</span>
+        </form>
+
+        <div>
+          <div class="plano-bg-azul">
+            <h3>Escolha o Plano</h3>
+            <form class="form-plano-flex" action="">
+                <div class="input-label">
+                  <input type="radio" name="" id="">
+                  <label for="">Infantil</label>
+                </div>
+                <div class="input-label">
+                  <input type="radio" name="" id="">
+                  <label for="">Adulto</label>
+                </div>
+                <div class="input-label">
+                  <input type="radio" name="" id="">
+                  <label for="">Profissional</label>
+                </div>
+            </form>
+
+            <div class="plano-bg-branco-form">
+              <div>
+                <img src="./surfbot-img/ícons/surfbot-icon.svg" alt="">
+              </div>
+              <div class="plano">
+                <h3>Adulto</h3>
+                <ul>
+                  <li>Público entre 5 e 15 anos</li>
+                  <li>Equipamentos fornecidos</li>
+                  <li>Horários de Sex. à Sab</li>
+                  <li>Aulas extras</li>
+                  <li>Certificado</li>
+                </ul>
+                <span>R$49,00 / Aula</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer-bg">
+    <div class="footer-flex container">
+      <p>Surfbot - 2022 &copy; direitos reservados</p>
+      <img src="./surfbot-img/ícons/surfbot-icon-branco.svg" alt="">
+    </div>
+  </footer>
+
+</body>
+
+</html>

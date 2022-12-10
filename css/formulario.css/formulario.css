@@ -1,0 +1,265 @@
+.inscricao h1{
+  font-size: 4.5rem;
+  font-family: "Alice", sans-serif;
+  font-weight: 100;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background: #dee6ed;
+}
+
+.matricula-aula{
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  gap: 120px;
+  margin-top: 80px;
+}
+
+.matricula-aula p{
+  color: #47535d;
+  font-size: 1.125rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.relizar-matricula{
+  border: none;
+  padding: 14px 25px;
+  background: #49f;
+  font-size: 1.125rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.relizar-matricula:hover{
+  background: #467;
+}
+
+.matricula-aula span{
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-top: 30px;
+  color: #000;
+  padding-bottom: 40px;
+}
+
+.matricula-aula span::before{
+  content: "";
+  background: url('../../surfbot-img/cadeado.svg') no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.form-grid-col{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 70px;
+}
+
+.form-grid-col label{
+  color: #47535d;
+  font-size: 1.125rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.form-grid-col input{
+  box-sizing: border-box;
+  padding: 14px 0 14px 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: none;
+  width: 100%;
+  background: #dee6ed;
+}
+
+.col2{
+  grid-column: 1 /-1;
+}
+
+.form-grid-col{
+  border-bottom: 2px solid #e2ebf2;
+}
+
+.form-grid-col a{
+  color: #49f;
+  font-size: 1.125rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.plano-bg-azul{
+  margin-top: 25px;
+  background: #dee6ed;
+  border-radius: 4px;
+  padding: 30px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.plano-bg-azul h3{
+  color: #47535d;
+  font-size: 1.125rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.form-plano-flex{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.input-label{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  padding: 13px;
+  color: #47535d;
+  font-size: 1.125rem;
+  font-family:  "Nunito", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-label:hover{
+  background: #bcd;
+  color: #fff;
+}
+
+.input-label label{
+  cursor: pointer;
+}
+
+.input-label::before{
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #49f;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.input-label:first-child{
+  border-radius: 4px 0 0 4px;
+}
+
+.input-label:last-child{
+  border-radius: 0px 4px 4px 0;
+}
+
+.input-label + .input-label{
+  border-left: 2px solid #dee6ed;
+}
+
+.form-plano-flex input[type="radio"] {
+  display: none;
+}
+
+.plano-bg-branco-form{
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(187, 204, 221, 0.3), 0px 10px 10px rgba(187, 204, 221, 0.5);
+}
+
+.plano-bg-branco-form img{
+  position: relative;
+  top: -22px;
+  margin: 0 auto;
+}
+
+.plano-bg-branco-form span{
+  color: #49f;
+  font-size: 0.875rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+
+.plano-bg-branco-form span::before{
+  display: none;
+}
+
+.form-grid-col3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex: 1;
+  gap: 0 70px;
+  padding-top: 110px;
+}
+
+.form-grid-col3 label{
+  color: #47535d;
+  font-size: 1.125rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.form-grid-col3 input{
+  box-sizing: border-box;
+  padding: 14px 0 14px 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: none;
+  width: 100%;
+  background: #dee6ed;
+}
+
+.input-flex{
+  display: flex;
+  gap: 20px;
+}
+
+.form-grid-col3{
+  padding-bottom: 30px;
+  border-bottom: 2px solid #e2ebf2;
+}
+
+@media (max-width: 1040px){
+  .matricula-aula{
+    gap: 50px;
+  }
+}
+
+@media (max-width: 800px){
+  .matricula-aula{
+    grid-template-columns: 1fr;
+  }
+  .plano-bg-azul{
+    margin: 0 20px 50px 20px;
+  }
+  .form-grid-col input{
+    box-sizing: border-box;
+  }
+}
+
+
+@media (max-width: 473px){
+  .form-grid-col {
+    gap: 0 20px;
+}
+.form-grid-col3{
+  gap: 0 20px;
+}
+}

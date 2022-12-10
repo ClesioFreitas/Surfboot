@@ -1,0 +1,18 @@
+.footer-bg{
+  background: #49f;
+}
+
+.footer-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-flex p{
+  color: #fff;
+  font-size: 1.125rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}

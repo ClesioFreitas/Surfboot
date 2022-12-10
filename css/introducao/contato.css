@@ -1,0 +1,157 @@
+.contato-mensagem h1{
+  text-align: center;
+  font-size: 4.5rem;
+  font-family: "alice", sans-serif;
+  font-weight: 100;
+  color: #3c4751;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.contato{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 200px;
+}
+
+.form-contato label{
+  color: #47535d;
+  font-size: 1.125rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+  display: block;
+  padding-bottom: 6px;
+}
+
+.form-contato input, textarea{
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 10px;
+  margin-bottom: 6px;
+  background: #dee6ed;
+  font-size: 1.257rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao-contato {
+  cursor: pointer;
+  padding: 15px 15px;
+  border: none;
+  border-radius: 4px;
+  background: #47535d;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.botao-contato a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+}
+
+.botao-contato:hover{
+  background: #49f;
+}
+
+.botao-contato a::after{
+  background: url("../../surfbot-img/seta.svg") no-repeat;
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.localizacao-contato h3{
+  font-size: 1.125rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: #3c4751;
+  padding-bottom: 6px;
+  
+} 
+
+.localizacao-contato div{
+  border-top: 2px solid #dee6ed;
+  max-width: 290px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.localizacao-contato div:first-child{
+  padding-top: 0px;
+  border-top: none;
+}
+
+.localizacao-contato p{
+  font-size: 0.875rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+  color: #3c4751;
+  padding-bottom: 5px;
+}
+
+.localizacao-contato span a{
+  display: inline-block;
+  font-size: 1.125rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: #3c4751;
+  padding-top: 15px;
+}
+
+.horario{
+  position: relative;
+}
+
+.horario::before{
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: #fff;
+  border: 3px solid #2edd1e;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: -18px;
+}
+
+
+@media (max-width: 951px){
+  .form-contato{
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 840px){
+  .contato{
+    gap: 100px;
+  }
+  .form-contato{
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 446px){
+  .contato{
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .form-contato input, textarea{
+    box-sizing: border-box;
+  }
+  .form-contato{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .localizacao-contato{
+    margin-left: 20px;
+  }
+}

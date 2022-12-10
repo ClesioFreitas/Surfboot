@@ -1,0 +1,167 @@
+.main-grid-col2{
+  display: grid;
+  grid-template-columns: 6fr 5fr;
+  gap: 130px;
+}
+
+.praia-imagem{
+  margin-top: 40px;
+}
+
+.mapa{
+  position: relative;
+  top: -40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.local{
+  padding-left: 20px;
+}
+
+.local h2{
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 10px;
+}
+
+.local h2::before{
+  margin-right: 5px;
+  display: inline-block;
+  content:  "";
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border: 2px solid #e21;
+  border-radius: 50%;
+}
+
+.local span{
+  display: block;
+  font-size: 0.875rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: #17222d;
+  padding-right: 5px;
+}
+
+.local p{
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: #9ab;
+  padding-bottom: 4px;
+}
+
+.local p::before{
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 2px;
+  background: #18e;
+  margin-right: 5px;
+}
+
+.localizacao-praia h1{
+  color: #17222d;
+  font-size: 4.5rem;
+  font-family: "Alice", sans-serif;
+  font-weight: 100;
+  line-height: 1;
+  padding-bottom: 80px;
+}
+
+.localizacao-praia span{
+  color: #18e;
+}
+
+.localizacao-praia ul li{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #17222d;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+  border-top: 2px solid #e2ebf2;
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.localizacao-praia ul li:last-child{
+  border-bottom: 2px solid #e2ebf2;
+}
+
+.sandalha::before{
+  display: inline-block;
+  content: "";
+  background: url("../../surfbot-img/ícons/sandalhas.svg") no-repeat;
+  width: 50px;
+  height: 53px;
+  margin-right: 35px;
+}
+
+.coco::before{
+  display: inline-block;
+  content: "";
+  background: url("../../surfbot-img/ícons/coco.svg") no-repeat;
+  width: 60px;
+  height: 65px;
+  margin-right: 35px;
+}
+
+.boia::before{
+  display: inline-block;
+  content: "";
+  background: url("../../surfbot-img/ícons/boia.svg") no-repeat;
+  width: 60px;
+  height: 65px;
+  margin-right: 35px;
+}
+
+.localizacao-praia p{
+  font-size: 1.125rem;
+  font-weight: 100;
+  font-family: "Nunito", sans-serif;
+  padding-top: 30px;
+  color: #47535d;
+}
+
+
+.imagem-onda img{
+  position: relative;
+  top: 40px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1040px){
+  .main-grid-col2{
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    top: -90px;
+  }
+}
+
+@media (max-width: 1000px){
+  .main-grid-col2{
+    position: relative;
+    grid-template-columns: 1fr ;
+    gap: 50px;
+    top: -90px;
+  }
+  .mapa{
+    position: relative;
+    top: -70px;
+    width: 100%;
+    max-height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .localizacao-praia p{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
